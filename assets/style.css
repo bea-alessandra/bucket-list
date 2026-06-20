@@ -22,6 +22,7 @@ body{
 .page{
     max-width:1400px;
     margin:auto;
+    display:block;
 }
 
 .controls{
