@@ -17,7 +17,7 @@ body{
 }
 
 .page{
-    max-width:2000px;
+    max-width:1920px;
     margin:auto;
     display:block;
 }
@@ -53,15 +53,14 @@ body{
     position:relative;
 
     width:1080px;
-    height:1920px;
 
     margin:auto;
 
     background:url('bg.jpg');
     background-size:cover;
     background-position:center;
-
-    overflow:hidden;
+    height: auto;
+    overflow: visible;
 }
 
 .overlay{
