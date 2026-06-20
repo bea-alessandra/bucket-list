@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Philippines Bucket List</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+</head>
+<body>
+
+<div class="page">
+
+    <div class="controls">
+
+        <select id="mode">
+            <option value="philippines">
+                Entire Philippines
+            </option>
+
+            <option value="province">
+                Specific Province
+            </option>
+        </select>
+
+        <select id="provinceSelect">
+            <option>Loading Provinces...</option>
+        </select>
+
+        <button id="downloadBtn">
+            Download JPG
+        </button>
+
+    </div>
+
+    <div id="poster">
+
+        <div class="overlay"></div>
+
+        <div class="content">
+
+            <div class="title-script" id="mainTitle">
+                Philippines
+            </div>
+
+            <div class="title-block">
+                BUCKET LIST
+            </div>
+
+            <div class="subtitle">
+                Explore Every Municipality & City
+            </div>
+
+            <div class="progress-container">
+
+                <div id="progressText">
+                    0 / 0 Completed
+                </div>
+
+                <div class="progress-bar">
+                    <div id="progressFill"></div>
+                </div>
+
+            </div>
+
+            <div id="listContainer"></div>
+
+            <div class="credit">
+                @beaalessandra_
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="assets/app.js"></script>
+
+</body>
+</html>
