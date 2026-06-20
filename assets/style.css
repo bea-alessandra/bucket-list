@@ -20,6 +20,7 @@ body{
     max-width:1920px;
     margin:auto;
     display:block;
+    min-height:100vh;
 }
 
 .controls{
@@ -53,7 +54,7 @@ body{
     position:relative;
 
     width:1080px;
-
+    min-height:19320px;
     margin:auto;
 
     background:url('bg.jpg');
@@ -153,7 +154,7 @@ body{
 }
 
 #listContainer{
-
+    max-height:none;
     column-count:2;
     column-gap:80px;
 }
