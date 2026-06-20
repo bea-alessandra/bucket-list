@@ -12,15 +12,12 @@ html, body {
 
 body{
     font-family:Poppins,sans-serif;
-    min-height:100vh;
-
     background:#f5efe6;
-
     padding:20px;
 }
 
 .page{
-    max-width:1400px;
+    max-width:2000px;
     margin:auto;
     display:block;
 }
